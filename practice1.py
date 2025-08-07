@@ -1,5 +1,6 @@
 from turtle import *
 
+#makes a donut, but Python isn't edible.
 def donut():
     circle(30)
     left(90)
@@ -12,6 +13,7 @@ def donut():
 
 donut()
 
+#makes a square.
 def quad():
     forward(100)
     left(90)
@@ -24,6 +26,8 @@ def quad():
 
 quad()
 
+
+#makes a triangle.
 def threeshape():
     forward(100)
     left(120)
